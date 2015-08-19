@@ -45,14 +45,16 @@
 
 .first-name-text,.second-name-text{
 	position: absolute;
-	top: 0px;
+	top: -20px;
 	left: 10px;
+	display: none;
 }
 
 .email-text,.address-text{
 	position: absolute;
-	top: 40px;
+	top: 20px;
 	left: 10px;
+	display: none;
 }
 
 input{
@@ -64,4 +66,15 @@ input{
 	position: absolute;
 	left: 10px;
 	width: 80%;
+}
+
+/*改变input 中的placeholder的颜色*/
+::-moz-placeholder{ 
+	color: black;
+}
+::-webkit-input-placeholder { 
+	color: black; 
+}
+:-ms-input-placeholder { 
+	color: black; 
 }
