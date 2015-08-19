@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+#main{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.line1,.line2,.line3,.line4,.line5{
+	height: 100px;
+	width: 800px;
+	box-sizing: border-box;
+}                                    /*设置5行的长宽*/
+
+.line2{
+	background-color: #EEEEEE;       
+}
+
+.cancle,.new-acount,.sign-up,.line2,.first-name,.second-name,.line4,.line5{
+	border: 1px solid black;
+	position: relative;
+}                                    /*为每个最小div设置边框*/
+
+.cancle,.new-acount,.sign-up{
+	float: left;
+	width: 33.33%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #1C3340;
+	color: white;
+}                                    /*为第一行的三个div设置样式*/
+
+.first-name,.second-name{
+	float: left;
+	width: 50%;
+	height: 100px;
+	line-height: 100px;
+	box-sizing: border-box;
+}
+
+.first-name-text,.second-name-text{
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+
+.email-text,.address-text{
+	position: absolute;
+	top: 40px;
+	left: 10px;
+}
+
+input{
+	border-width: 0;
+	width: 100%;
+	height: 100%;
+	outline: 0px;
+	font-size: 20px;
+	position: absolute;
+	left: 10px;
+	width: 80%;
+}
